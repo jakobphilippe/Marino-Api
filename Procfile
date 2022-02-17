@@ -1,1 +1,1 @@
-web: julia --project src/MarinoApi.jl $PORT
+web: julia --project bootstrap.jl $PORT

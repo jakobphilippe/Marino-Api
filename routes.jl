@@ -1,6 +1,6 @@
 using Genie.Router, Genie.Renderer.Json
 using Mongoc
-using MarinoApi
+include("src/MarinoApi.jl")
 
 route("/") do
   serve_static_file("welcome.html")

@@ -5,7 +5,6 @@ using Logging
 using LoggingExtras
 using Mongoc
 using PrettyPrint
-using Genie, Logging, LoggingExtras
 
 locations = ["m-wr", "m-3", "m-g", "m-2", "m-tr", "sb-4"]
 

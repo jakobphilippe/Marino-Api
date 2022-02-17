@@ -1,8 +1,8 @@
 using Genie, MbedTLS
 
 function configure_dev_ssl()
-  cert = Genie.Assets.embedded_path(joinpath("files", "ssl", "localhost.crt")) |> MbedTLS.crt_parse_file
-  key = Genie.Assets.embedded_path(joinpath("files", "ssl", "localhost.key")) |> MbedTLS.parse_keyfile
+  cert = Genie.Assets.embedded_path("/etc/letsencrypt/live/jakobphilippe.com/fullchain.pem") |> MbedTLS.crt_parse_file
+  key = Genie.Assets.embedded_path("/etc/letsencrypt/live/jakobphilippe.com/privkey.pem") |> MbedTLS.parse_keyfile
 
   ssl_config = MbedTLS.SSLConfig(true)
   entropy = MbedTLS.Entropy()

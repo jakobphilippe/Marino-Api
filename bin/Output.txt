@@ -1,0 +1,24 @@
+
+[31m[1m _____         _[22m[39m
+[31m[1m|   __|___ ___|_|___[22m[39m
+[31m[1m|  |  | -_|   | | -_|[22m[39m
+[31m[1m|_____|___|_|_|_|___|[22m[39m
+
+[90m[1m| Web: https://genieframework.com[22m[39m
+[90m[1m| GitHub: https://github.com/genieframework/Genie.jl[22m[39m
+[90m[1m| Docs: https://www.genieframework.com/docs/tutorials/Overview.html[22m[39m
+[90m[1m| Discord: https://discord.com/invite/9zyZbD6J7H[22m[39m
+[90m[1m| Twitter: https://twitter.com/GenieMVC[22m[39m
+
+[94m[1mActive env: DEV[22m[39m
+
+[32m[1mLoading [22m[39m[37minitializers[39m[0K[0K[32m[1mLoading [22m[39m[37mhelpers[39m[0K[0K[32m[1mLoading [22m[39m[37mlib[39m[0K[0K[32m[1mLoading [22m[39m[37mresources[39m[0K[0K[32m[1mLoading [22m[39m[37mplugins[39m[0K[0K[32m[1mLoading [22m[39m[37mroutes[39m[0K[0K[0K
+[32m[1mReady! [22m[39m
+
+[36m[1m┌ [22m[39m[36m[1mInfo: [22m[39m2022-02-17 00:02:00 
+[36m[1m└ [22m[39mWeb Server starting at https://127.0.0.1:8000 - press Ctrl/Cmd+C to stop the server. 
+[36m[1m[ [22m[39m[36m[1mInfo: [22m[39m2022-02-17 00:02:41 GET / 200
+[36m[1m[ [22m[39m[36m[1mInfo: [22m[39m2022-02-17 00:02:41 GET / 200
+[36m[1m[ [22m[39m[36m[1mInfo: [22m[39m2022-02-17 00:02:44 GET / 200
+[36m[1m[ [22m[39m[36m[1mInfo: [22m[39m2022-02-17 00:02:50 GET / 200
+[36m[1m[ [22m[39m[36m[1mInfo: [22m[39m2022-02-17 00:02:51 GET / 200

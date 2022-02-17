@@ -2,7 +2,7 @@ using Genie.Configuration, Logging
 
 const config = Settings(
   server_port                     = 8000,
-  server_host                     = "0.0.0.0",
+  server_host                     = "104.200.30.222",
   log_level                       = Logging.Error,
   log_to_file                     = false,
   server_handle_static_files      = true, # for best performance set up Nginx or Apache web proxies and set this to false

@@ -20,7 +20,10 @@ end
 function get_latest_data()
   suffix = "&tlsCAFile=" * ENV["CERT_LOC"]
   password = ENV["MONGO_PASSWORD"]
-
+  
+  @info suffix
+  @info password 
+ 
   client = Mongoc.Client("mongodb+srv://root:$password@marinobase.vunm9.mongodb.net/umongo?retryWrites=true&w=majority" * suffix)
    
   database = client["Umongo"]

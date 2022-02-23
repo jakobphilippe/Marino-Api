@@ -1,1 +1,0 @@
-web: julia --project bootstrap.jl $PORT

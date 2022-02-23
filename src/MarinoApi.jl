@@ -44,6 +44,8 @@ function get_latest_data()
                               )
   end
 
+  Mongoc.destroy!(client)
+  
   return marino_data_dict
 end
 
